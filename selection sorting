@@ -1,11 +1,11 @@
-#include<stdio>
+#include<stdio.h>
 void main()
 { 
     int a[10],i,j,t;
     printf("Enter array");
     for(i=0;i<10;i++)
 {
-    scanf("%d",&a[j]);
+    scanf("%d",&a[i]);
 }
     for(i=0;i<9;i++)
 { 
@@ -13,7 +13,7 @@ void main()
 { 
     if(a[j]<a[i])
 {  
-    w=x[i];
+    t=x[i];
     x[i]=x[j];
     x[j]=t;
    }
