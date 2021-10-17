@@ -2,7 +2,7 @@
 void main()
 { 
     int a[10],i,j,t;
-    printf("Enter array");
+    printf("Enter Array"); // input 
     for(i=0;i<10;i++)
 {
     scanf("%d",&a[i]);
